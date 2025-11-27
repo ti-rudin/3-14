@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col min-h-screen">
-    <nav class="bg-white dark:bg-gray-800 shadow">
+    <nav class="sticky top-0 z-50 bg-white dark:bg-gray-800 shadow">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16 items-center">
           <div class="flex items-center space-x-4">
@@ -71,15 +71,13 @@
     </nav>
 
     <main class="flex-grow bg-gray-50 dark:bg-gray-900">
-      <div class="container mx-auto">
-        <router-view></router-view>
-      </div>
+      <router-view></router-view>
     </main>
 
     <footer class="bg-white dark:bg-gray-800 shadow">
       <div class="w-full mx-auto max-w-screen-xl p-4 text-center">
         <span class="text-sm text-gray-500 dark:text-gray-400">
-          © {{ new Date().getFullYear() }} Рудин Александр
+          © {{ new Date().getFullYear() }} 3-14. Все права защищены
         </span>
       </div>
     </footer>
