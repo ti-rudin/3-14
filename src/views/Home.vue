@@ -60,11 +60,12 @@
         <div class="grid md:grid-cols-3 gap-8">
           <!-- Deposit 1: Большевишенское -->
           <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-            <div class="h-48 bg-gradient-to-br from-amber-100 to-orange-100 dark:from-gray-700 dark:to-gray-600 flex items-center justify-center">
-              <svg class="w-24 h-24 text-amber-600 dark:text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-              </svg>
+            <div class="h-48 overflow-hidden">
+              <img 
+                src="/foto/5.jpeg" 
+                alt="Месторождение Большевишенское" 
+                class="w-full h-full object-cover"
+              />
             </div>
             <div class="p-6">
               <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">
@@ -100,11 +101,12 @@
 
           <!-- Deposit 2: Эммаус -->
           <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-            <div class="h-48 bg-gradient-to-br from-amber-100 to-orange-100 dark:from-gray-700 dark:to-gray-600 flex items-center justify-center">
-              <svg class="w-24 h-24 text-amber-600 dark:text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-              </svg>
+            <div class="h-48 overflow-hidden">
+              <img 
+                src="/foto/7.jpeg" 
+                alt="Месторождение Эммаус" 
+                class="w-full h-full object-cover"
+              />
             </div>
             <div class="p-6">
               <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">
@@ -128,11 +130,12 @@
 
           <!-- Deposit 3: Красногорское-2 -->
           <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-            <div class="h-48 bg-gradient-to-br from-amber-100 to-orange-100 dark:from-gray-700 dark:to-gray-600 flex items-center justify-center">
-              <svg class="w-24 h-24 text-amber-600 dark:text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-              </svg>
+            <div class="h-48 overflow-hidden">
+              <img 
+                src="/foto/6.jpeg" 
+                alt="Месторождение Красногорское-2" 
+                class="w-full h-full object-cover"
+              />
             </div>
             <div class="p-6">
               <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">
