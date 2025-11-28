@@ -1,0 +1,9 @@
+{
+  "remote.extensionKind": {
+    "saoudrizwan.claude-dev": ["ui", "workspace"]
+  },
+  "workbench.editor.enablePreview": false,
+  "webview.experimental.useIframes": true,
+  "cline.enable": true
+}
+
