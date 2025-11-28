@@ -36,7 +36,7 @@
           <h2 id="about-title" class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
             О компании
           </h2>
-          <p class="text-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
+          <p class="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             АО "Полезные ископаемые" специализируется на разработке песчаных и каменных карьеров и поставке качественных нерудных материалов. 
             Мы работаем с несколькими месторождениями в Тверской области, обеспечивая стабильные поставки песка и гравия 
             для строительных и производственных нужд.
@@ -52,7 +52,7 @@
           <h2 id="deposits-title" class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
             Наши месторождения
           </h2>
-          <p class="text-lg text-gray-600 dark:text-gray-400">
+          <p class="text-lg text-gray-600 dark:text-gray-300">
             Три карьера в Тверской области с различным ассортиментом материалов
           </p>
         </div>
@@ -63,15 +63,16 @@
             <div class="h-48 overflow-hidden">
               <img 
                 src="/foto/5.jpeg" 
-                alt="Месторождение Большевишенское" 
+                alt="Песчаный карьер месторождения Большевишенское в Тверской области. Вид на разработку песчаного карьера с техникой и складом песка" 
                 class="w-full h-full object-cover"
+                loading="lazy"
               />
             </div>
             <div class="p-6">
               <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">
                 Большевишенское
               </h3>
-              <p class="text-gray-600 dark:text-gray-400 mb-4 text-sm leading-relaxed">
+              <p class="text-gray-600 dark:text-gray-300 mb-4 text-sm leading-relaxed">
                 Расположено в 20 км северо-западнее г. Торжок, в 1.1 км северо-восточнее д. Большое Вишенье 
                 Торжокского района Тверской области.
               </p>
@@ -80,19 +81,19 @@
                 <ul class="space-y-2">
                   <li class="flex justify-between items-center">
                     <span class="text-gray-700 dark:text-gray-300">Песок сеянный</span>
-                    <span class="font-bold text-amber-600 dark:text-amber-400">400 ₽/м³</span>
+                    <span class="font-bold text-amber-600 dark:text-amber-500">400 ₽/м³</span>
                   </li>
                   <li class="flex justify-between items-center">
-                    <span class="text-gray-700 dark:text-gray-300">Гравий 5/20</span>
-                    <span class="font-bold text-amber-600 dark:text-amber-400">1550 ₽/м³</span>
+                    <span class="text-gray-700 dark:text-gray-200">Гравий 5/20</span>
+                    <span class="font-bold text-amber-600 dark:text-amber-500">1550 ₽/м³</span>
                   </li>
                   <li class="flex justify-between items-center">
-                    <span class="text-gray-700 dark:text-gray-300">Гравий 20/40</span>
-                    <span class="font-bold text-amber-600 dark:text-amber-400">1850 ₽/м³</span>
+                    <span class="text-gray-700 dark:text-gray-200">Гравий 20/40</span>
+                    <span class="font-bold text-amber-600 dark:text-amber-500">1850 ₽/м³</span>
                   </li>
                   <li class="flex justify-between items-center">
-                    <span class="text-gray-700 dark:text-gray-300">Гравий 40/70</span>
-                    <span class="font-bold text-amber-600 dark:text-amber-400">1850 ₽/м³</span>
+                    <span class="text-gray-700 dark:text-gray-200">Гравий 40/70</span>
+                    <span class="font-bold text-amber-600 dark:text-amber-500">1850 ₽/м³</span>
                   </li>
                 </ul>
               </div>
@@ -104,15 +105,16 @@
             <div class="h-48 overflow-hidden">
               <img 
                 src="/foto/7.jpeg" 
-                alt="Месторождение Эммаус" 
+                alt="Карьер месторождения Эммаус в Калининском районе Тверской области. Добыча песка и нерудных материалов" 
                 class="w-full h-full object-cover"
+                loading="lazy"
               />
             </div>
             <div class="p-6">
               <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">
                 Эммаус
               </h3>
-              <p class="text-gray-600 dark:text-gray-400 mb-4 text-sm leading-relaxed">
+              <p class="text-gray-600 dark:text-gray-300 mb-4 text-sm leading-relaxed">
                 Расположено в 19 км юго-восточнее г. Твери, 2 км западнее д. Нов. Семеновское, 
                 Калининского района Тверской области.
               </p>
@@ -120,8 +122,8 @@
                 <h4 class="font-semibold text-gray-900 dark:text-white mb-3">Ассортимент и цены:</h4>
                 <ul class="space-y-2">
                   <li class="flex justify-between items-center">
-                    <span class="text-gray-700 dark:text-gray-300">Песок</span>
-                    <span class="font-bold text-amber-600 dark:text-amber-400">450 ₽/м³</span>
+                    <span class="text-gray-700 dark:text-gray-200">Песок</span>
+                    <span class="font-bold text-amber-600 dark:text-amber-500">450 ₽/м³</span>
                   </li>
                 </ul>
               </div>
@@ -133,15 +135,16 @@
             <div class="h-48 overflow-hidden">
               <img 
                 src="/foto/6.jpeg" 
-                alt="Месторождение Красногорское-2" 
+                alt="Песчаный карьер месторождения Красногорское-2 в Тверской области. Производство и добыча песка для строительства" 
                 class="w-full h-full object-cover"
+                loading="lazy"
               />
             </div>
             <div class="p-6">
               <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">
                 Красногорское-2
               </h3>
-              <p class="text-gray-600 dark:text-gray-400 mb-4 text-sm leading-relaxed">
+              <p class="text-gray-600 dark:text-gray-300 mb-4 text-sm leading-relaxed">
                 Расположено в 5 км юго-восточнее г. Тверь, в 3 км западнее д. Савватьево 
                 Калининского муниципального района Тверской области.
               </p>
@@ -149,8 +152,8 @@
                 <h4 class="font-semibold text-gray-900 dark:text-white mb-3">Ассортимент и цены:</h4>
                 <ul class="space-y-2">
                   <li class="flex justify-between items-center">
-                    <span class="text-gray-700 dark:text-gray-300">Песок</span>
-                    <span class="font-bold text-amber-600 dark:text-amber-400">440 ₽/м³</span>
+                    <span class="text-gray-700 dark:text-gray-200">Песок</span>
+                    <span class="font-bold text-amber-600 dark:text-amber-500">440 ₽/м³</span>
                   </li>
                 </ul>
               </div>
@@ -167,7 +170,7 @@
           <h2 id="gallery-title" class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
             Галерея
           </h2>
-          <p class="text-lg text-gray-600 dark:text-gray-400">
+          <p class="text-lg text-gray-600 dark:text-gray-300">
             Наши карьеры и производство
           </p>
         </div>
@@ -186,8 +189,9 @@
           >
             <img 
               :src="`/foto/${i}.jpeg`" 
-              :alt="`Фото карьера ${i}`"
+              :alt="`Фотография ${i} из галереи: разработка песчаных и каменных карьеров АО Полезные ископаемые в Тверской области, добыча песка, щебня и гравия`"
               class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+              loading="lazy"
             />
             <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-opacity duration-300" aria-hidden="true"></div>
           </div>
@@ -202,7 +206,7 @@
           <h2 id="contact-title" class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
             Свяжитесь с нами
           </h2>
-          <p class="text-lg text-gray-600 dark:text-gray-400 mb-8">
+          <p class="text-lg text-gray-600 dark:text-gray-300 mb-8">
             Готовы ответить на ваши вопросы и обсудить условия поставки
           </p>
           <div class="flex flex-col sm:flex-row justify-center items-center gap-4 mb-8">
@@ -229,7 +233,7 @@
             </a>
             -->
           </div>
-          <div class="text-center text-sm text-gray-600 dark:text-gray-400 space-y-2">
+          <div class="text-center text-sm text-gray-600 dark:text-gray-300 space-y-2">
             <div>170001, Тверская область, г.&nbsp;Тверь, тер.&nbsp;Двор&nbsp;Пролетарки, д.&nbsp;7, помещ.&nbsp;№&nbsp;113-114</div>
             <div>ИНН: 9721254752 | ОГРН: 1257700336926</div>
           </div>
@@ -246,19 +250,49 @@
       aria-modal="true"
       :aria-labelledby="`lightbox-image-${lightboxImage}`"
     >
+      <!-- Close button -->
       <button 
         @click="closeLightbox"
-        class="absolute top-4 right-4 text-white hover:text-gray-300 transition-colors"
+        class="absolute top-4 right-4 text-white hover:text-gray-300 transition-colors z-10 p-2 rounded-full hover:bg-white hover:bg-opacity-10"
         aria-label="Закрыть изображение"
       >
         <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
         </svg>
       </button>
+
+      <!-- Previous button -->
+      <button 
+        @click.stop="navigateImage('prev')"
+        class="absolute left-4 top-1/2 -translate-y-1/2 text-white hover:text-gray-300 transition-colors z-10 p-3 rounded-full hover:bg-white hover:bg-opacity-10"
+        aria-label="Предыдущее изображение"
+      >
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+        </svg>
+      </button>
+
+      <!-- Next button -->
+      <button 
+        @click.stop="navigateImage('next')"
+        class="absolute right-4 top-1/2 -translate-y-1/2 text-white hover:text-gray-300 transition-colors z-10 p-3 rounded-full hover:bg-white hover:bg-opacity-10"
+        aria-label="Следующее изображение"
+      >
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg>
+      </button>
+
+      <!-- Image counter -->
+      <div class="absolute bottom-4 left-1/2 -translate-x-1/2 text-white text-sm bg-black bg-opacity-50 px-4 py-2 rounded-full z-10">
+        {{ lightboxImage }} / {{ totalImages }}
+      </div>
+
+      <!-- Image -->
       <img 
         :id="`lightbox-image-${lightboxImage}`"
         :src="`/foto/${lightboxImage}.jpeg`" 
-        :alt="`Фото карьера ${lightboxImage} в полном размере`"
+        :alt="`Фотография ${lightboxImage} из галереи АО Полезные ископаемые: разработка карьеров, добыча песка, щебня и гравия в Тверской области`"
         class="max-w-full max-h-full object-contain"
         @click.stop
       />
@@ -267,12 +301,13 @@
 </template>
 
 <script>
-import { ref } from 'vue'
+import { ref, onUnmounted, watch } from 'vue'
 
 export default {
   name: 'Home',
   setup() {
     const lightboxImage = ref(null)
+    const totalImages = 8
 
     const openLightbox = (imageNumber) => {
       lightboxImage.value = imageNumber
@@ -284,10 +319,51 @@ export default {
       document.body.style.overflow = ''
     }
 
+    const navigateImage = (direction) => {
+      if (!lightboxImage.value) return
+      
+      if (direction === 'next') {
+        lightboxImage.value = lightboxImage.value >= totalImages ? 1 : lightboxImage.value + 1
+      } else {
+        lightboxImage.value = lightboxImage.value <= 1 ? totalImages : lightboxImage.value - 1
+      }
+    }
+
+    const handleKeydown = (event) => {
+      if (!lightboxImage.value) return
+
+      switch (event.key) {
+        case 'Escape':
+          closeLightbox()
+          break
+        case 'ArrowLeft':
+          navigateImage('prev')
+          break
+        case 'ArrowRight':
+          navigateImage('next')
+          break
+      }
+    }
+
+    watch(lightboxImage, (newVal) => {
+      if (newVal) {
+        document.addEventListener('keydown', handleKeydown)
+      } else {
+        document.removeEventListener('keydown', handleKeydown)
+      }
+    })
+
+    onUnmounted(() => {
+      document.removeEventListener('keydown', handleKeydown)
+      document.body.style.overflow = ''
+    })
+
     return {
       lightboxImage,
+      totalImages,
       openLightbox,
-      closeLightbox
+      closeLightbox,
+      navigateImage
     }
   }
 }

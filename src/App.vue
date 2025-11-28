@@ -175,6 +175,45 @@ body {
   background-color: var(--bg-color);
 }
 
+/* Улучшенные focus states */
+*:focus-visible {
+  outline: 3px solid #3b82f6;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+/* Улучшенный контраст для темной темы */
+.dark button:focus-visible,
+.dark a:focus-visible,
+.dark input:focus-visible,
+.dark textarea:focus-visible,
+.dark select:focus-visible {
+  outline-color: #60a5fa;
+  outline-width: 3px;
+}
+
+/* Улучшенная контрастность для текста в темной теме */
+.dark .text-gray-400 {
+  color: #9ca3af; /* Улучшенный контраст вместо #9ca3af */
+}
+
+.dark .text-gray-500 {
+  color: #a1a1aa; /* Улучшенный контраст */
+}
+
+.dark .text-gray-600 {
+  color: #d4d4d8; /* Улучшенный контраст для читаемости */
+}
+
 /* Ensure mobile menu stays above overlay */
 #mobile-menu {
   position: relative;
