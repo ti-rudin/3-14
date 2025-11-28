@@ -109,6 +109,116 @@
     }
     </script>
 
+    <!-- Product Schema для материалов -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "Product",
+          "name": "Песок сеянный",
+          "description": "Сеянный песок для строительных работ",
+          "brand": {
+            "@type": "Brand",
+            "name": "АО \"Полезные ископаемые\""
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "400",
+            "priceCurrency": "RUB",
+            "priceUnit": "м³",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "Гравий 5/20",
+          "description": "Гравий фракции 5-20 мм",
+          "brand": {
+            "@type": "Brand",
+            "name": "АО \"Полезные ископаемые\""
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "1550",
+            "priceCurrency": "RUB",
+            "priceUnit": "м³",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "Гравий 20/40",
+          "description": "Гравий фракции 20-40 мм",
+          "brand": {
+            "@type": "Brand",
+            "name": "АО \"Полезные ископаемые\""
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "1850",
+            "priceCurrency": "RUB",
+            "priceUnit": "м³",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "Гравий 40/70",
+          "description": "Гравий фракции 40-70 мм",
+          "brand": {
+            "@type": "Brand",
+            "name": "АО \"Полезные ископаемые\""
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "1850",
+            "priceCurrency": "RUB",
+            "priceUnit": "м³",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "Песок",
+          "description": "Песок для строительных работ",
+          "brand": {
+            "@type": "Brand",
+            "name": "АО \"Полезные ископаемые\""
+          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "price": "450",
+              "priceCurrency": "RUB",
+              "priceUnit": "м³",
+              "availability": "https://schema.org/InStock",
+              "itemOffered": {
+                "@type": "Product",
+                "name": "Песок (Эммаус)"
+              }
+            },
+            {
+              "@type": "Offer",
+              "price": "440",
+              "priceCurrency": "RUB",
+              "priceUnit": "м³",
+              "availability": "https://schema.org/InStock",
+              "itemOffered": {
+                "@type": "Product",
+                "name": "Песок (Красногорское-2)"
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <!-- Preload критичных ресурсов -->
+    <link rel="preload" as="image" href="/foto/4.jpeg" fetchpriority="high" />
+    
     <!-- Preload fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

@@ -1,5 +1,13 @@
 <template>
   <div class="flex flex-col min-h-screen">
+    <!-- Skip to content link для доступности -->
+    <a 
+      href="#main-content" 
+      class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-amber-600 focus:text-white focus:rounded-lg focus:shadow-lg"
+      aria-label="Перейти к основному содержимому"
+    >
+      Перейти к содержимому
+    </a>
     <nav class="sticky top-0 z-50 bg-white dark:bg-gray-800 shadow" role="navigation" aria-label="Основная навигация">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16 items-center">
@@ -78,7 +86,7 @@
       </div>
     </nav>
 
-    <main class="flex-grow bg-gray-50 dark:bg-gray-900" role="main">
+    <main id="main-content" class="flex-grow bg-gray-50 dark:bg-gray-900" role="main" tabindex="-1">
       <router-view></router-view>
     </main>
 
@@ -218,5 +226,29 @@ select:focus-visible {
 #mobile-menu {
   position: relative;
   z-index: 20;
+}
+
+/* Skip to content link styles */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.focus\:not-sr-only:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: inherit;
+  margin: inherit;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
 }
 </style>

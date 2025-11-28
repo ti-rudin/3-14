@@ -4,11 +4,31 @@
     <section class="relative min-h-[600px] lg:min-h-[700px] flex items-center justify-center py-20 lg:py-32 overflow-hidden w-full" aria-labelledby="hero-title">
       <!-- Background Image -->
       <div class="absolute inset-0 z-0" aria-hidden="true">
-        <img 
-          src="/foto/4.jpeg" 
-          alt="" 
-          class="w-full h-full object-cover"
-        />
+        <picture>
+          <source 
+            srcset="/foto/4.jpeg?w=1920&format=webp" 
+            type="image/webp"
+            media="(min-width: 1024px)"
+          />
+          <source 
+            srcset="/foto/4.jpeg?w=1024&format=webp" 
+            type="image/webp"
+            media="(min-width: 768px)"
+          />
+          <source 
+            srcset="/foto/4.jpeg?w=768&format=webp" 
+            type="image/webp"
+          />
+          <img 
+            src="/foto/4.jpeg" 
+            srcset="/foto/4.jpeg?w=1920 1920w, /foto/4.jpeg?w=1024 1024w, /foto/4.jpeg?w=768 768w"
+            sizes="100vw"
+            alt="" 
+            class="w-full h-full object-cover"
+            loading="eager"
+            fetchpriority="high"
+          />
+        </picture>
         <!-- Overlay для лучшей читаемости -->
         <div class="absolute inset-0 bg-black bg-opacity-40 dark:bg-opacity-60"></div>
       </div>
@@ -30,7 +50,7 @@
     </section>
 
     <!-- About Section -->
-    <section class="py-16 bg-white dark:bg-gray-800" aria-labelledby="about-title">
+    <section class="py-16 bg-white dark:bg-gray-800 scroll-animate" aria-labelledby="about-title">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
           <h2 id="about-title" class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
@@ -46,7 +66,7 @@
     </section>
 
     <!-- Deposits Section -->
-    <section class="py-16 bg-gray-50 dark:bg-gray-900" aria-labelledby="deposits-title">
+    <section class="py-16 bg-gray-50 dark:bg-gray-900 scroll-animate" aria-labelledby="deposits-title">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
           <h2 id="deposits-title" class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
@@ -60,13 +80,21 @@
         <div class="grid md:grid-cols-3 gap-8" role="list">
           <!-- Deposit 1: Большевишенское -->
           <article class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow" role="listitem">
-            <div class="h-48 overflow-hidden">
-              <img 
-                src="/foto/5.jpeg" 
-                alt="Песчаный карьер месторождения Большевишенское в Тверской области. Вид на разработку песчаного карьера с техникой и складом песка" 
-                class="w-full h-full object-cover"
-                loading="lazy"
-              />
+            <div class="h-48 overflow-hidden bg-gray-200 dark:bg-gray-700">
+              <picture>
+                <source 
+                  srcset="/foto/5.jpeg?w=600&format=webp" 
+                  type="image/webp"
+                />
+                <img 
+                  src="/foto/5.jpeg" 
+                  srcset="/foto/5.jpeg?w=600 600w, /foto/5.jpeg?w=400 400w"
+                  sizes="(min-width: 768px) 33vw, 100vw"
+                  alt="Песчаный карьер месторождения Большевишенское в Тверской области. Вид на разработку песчаного карьера с техникой и складом песка" 
+                  class="w-full h-full object-cover transition-opacity duration-300"
+                  loading="lazy"
+                />
+              </picture>
             </div>
             <div class="p-6">
               <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">
@@ -81,19 +109,19 @@
                 <ul class="space-y-2">
                   <li class="flex justify-between items-center">
                     <span class="text-gray-700 dark:text-gray-300">Песок сеянный</span>
-                    <span class="font-bold text-amber-600 dark:text-amber-500">400 ₽/м³</span>
+                    <span class="font-bold text-amber-600 dark:text-amber-500" data-price="400">400 ₽/м³</span>
                   </li>
                   <li class="flex justify-between items-center">
                     <span class="text-gray-700 dark:text-gray-200">Гравий 5/20</span>
-                    <span class="font-bold text-amber-600 dark:text-amber-500">1550 ₽/м³</span>
+                    <span class="font-bold text-amber-600 dark:text-amber-500" data-price="1550">1550 ₽/м³</span>
                   </li>
                   <li class="flex justify-between items-center">
                     <span class="text-gray-700 dark:text-gray-200">Гравий 20/40</span>
-                    <span class="font-bold text-amber-600 dark:text-amber-500">1850 ₽/м³</span>
+                    <span class="font-bold text-amber-600 dark:text-amber-500" data-price="1850">1850 ₽/м³</span>
                   </li>
                   <li class="flex justify-between items-center">
                     <span class="text-gray-700 dark:text-gray-200">Гравий 40/70</span>
-                    <span class="font-bold text-amber-600 dark:text-amber-500">1850 ₽/м³</span>
+                    <span class="font-bold text-amber-600 dark:text-amber-500" data-price="1850">1850 ₽/м³</span>
                   </li>
                 </ul>
               </div>
@@ -102,13 +130,21 @@
 
           <!-- Deposit 2: Эммаус -->
           <article class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow" role="listitem">
-            <div class="h-48 overflow-hidden">
-              <img 
-                src="/foto/7.jpeg" 
-                alt="Карьер месторождения Эммаус в Калининском районе Тверской области. Добыча песка и нерудных материалов" 
-                class="w-full h-full object-cover"
-                loading="lazy"
-              />
+            <div class="h-48 overflow-hidden bg-gray-200 dark:bg-gray-700">
+              <picture>
+                <source 
+                  srcset="/foto/7.jpeg?w=600&format=webp" 
+                  type="image/webp"
+                />
+                <img 
+                  src="/foto/7.jpeg" 
+                  srcset="/foto/7.jpeg?w=600 600w, /foto/7.jpeg?w=400 400w"
+                  sizes="(min-width: 768px) 33vw, 100vw"
+                  alt="Карьер месторождения Эммаус в Калининском районе Тверской области. Добыча песка и нерудных материалов" 
+                  class="w-full h-full object-cover transition-opacity duration-300"
+                  loading="lazy"
+                />
+              </picture>
             </div>
             <div class="p-6">
               <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">
@@ -123,7 +159,7 @@
                 <ul class="space-y-2">
                   <li class="flex justify-between items-center">
                     <span class="text-gray-700 dark:text-gray-200">Песок</span>
-                    <span class="font-bold text-amber-600 dark:text-amber-500">450 ₽/м³</span>
+                    <span class="font-bold text-amber-600 dark:text-amber-500" data-price="450">450 ₽/м³</span>
                   </li>
                 </ul>
               </div>
@@ -132,13 +168,21 @@
 
           <!-- Deposit 3: Красногорское-2 -->
           <article class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow" role="listitem">
-            <div class="h-48 overflow-hidden">
-              <img 
-                src="/foto/6.jpeg" 
-                alt="Песчаный карьер месторождения Красногорское-2 в Тверской области. Производство и добыча песка для строительства" 
-                class="w-full h-full object-cover"
-                loading="lazy"
-              />
+            <div class="h-48 overflow-hidden bg-gray-200 dark:bg-gray-700">
+              <picture>
+                <source 
+                  srcset="/foto/6.jpeg?w=600&format=webp" 
+                  type="image/webp"
+                />
+                <img 
+                  src="/foto/6.jpeg" 
+                  srcset="/foto/6.jpeg?w=600 600w, /foto/6.jpeg?w=400 400w"
+                  sizes="(min-width: 768px) 33vw, 100vw"
+                  alt="Песчаный карьер месторождения Красногорское-2 в Тверской области. Производство и добыча песка для строительства" 
+                  class="w-full h-full object-cover transition-opacity duration-300"
+                  loading="lazy"
+                />
+              </picture>
             </div>
             <div class="p-6">
               <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-3">
@@ -153,7 +197,7 @@
                 <ul class="space-y-2">
                   <li class="flex justify-between items-center">
                     <span class="text-gray-700 dark:text-gray-200">Песок</span>
-                    <span class="font-bold text-amber-600 dark:text-amber-500">440 ₽/м³</span>
+                    <span class="font-bold text-amber-600 dark:text-amber-500" data-price="440">440 ₽/м³</span>
                   </li>
                 </ul>
               </div>
@@ -164,7 +208,7 @@
     </section>
 
     <!-- Gallery Section -->
-    <section class="py-16 bg-white dark:bg-gray-800" aria-labelledby="gallery-title">
+    <section class="py-16 bg-white dark:bg-gray-800 scroll-animate" aria-labelledby="gallery-title">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
           <h2 id="gallery-title" class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
@@ -179,7 +223,7 @@
           <div 
             v-for="i in 8" 
             :key="i"
-            class="relative group cursor-pointer overflow-hidden rounded-lg aspect-square"
+            class="relative group cursor-pointer overflow-hidden rounded-lg aspect-square bg-gray-200 dark:bg-gray-700"
             @click="openLightbox(i)"
             @keydown.enter="openLightbox(i)"
             @keydown.space.prevent="openLightbox(i)"
@@ -187,12 +231,20 @@
             :aria-label="`Открыть фото ${i} в полном размере`"
             tabindex="0"
           >
-            <img 
-              :src="`/foto/${i}.jpeg`" 
-              :alt="`Фотография ${i} из галереи: разработка песчаных и каменных карьеров АО Полезные ископаемые в Тверской области, добыча песка, щебня и гравия`"
-              class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
-              loading="lazy"
-            />
+            <picture>
+              <source 
+                :srcset="`/foto/${i}.jpeg?w=400&format=webp`" 
+                type="image/webp"
+              />
+              <img 
+                :src="`/foto/${i}.jpeg`" 
+                :srcset="`/foto/${i}.jpeg?w=400 400w, /foto/${i}.jpeg?w=800 800w`"
+                sizes="(min-width: 768px) 25vw, 50vw"
+                :alt="`Фотография ${i} из галереи: разработка песчаных и каменных карьеров АО Полезные ископаемые в Тверской области, добыча песка, щебня и гравия`"
+                class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                loading="lazy"
+              />
+            </picture>
             <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-opacity duration-300" aria-hidden="true"></div>
           </div>
         </div>
@@ -200,7 +252,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="py-16 bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900" aria-labelledby="contact-title">
+    <section class="py-16 bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 scroll-animate" aria-labelledby="contact-title">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center">
           <h2 id="contact-title" class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
@@ -214,24 +266,13 @@
               href="tel:+79040170207" 
               aria-label="Позвонить по телефону +7(904)017-02-07"
               class="inline-flex items-center px-6 py-3 bg-gray-900 hover:bg-gray-800 dark:bg-amber-700 dark:hover:bg-amber-600 text-white font-medium rounded-lg transition-colors shadow-lg"
+              @click="trackPhoneClick"
             >
               <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
               </svg>
               +7 (904) 017-02-07
             </a>
-            <!--
-            <a 
-              href="mailto:ax.rudin@gmail.com" 
-              aria-label="Написать на электронную почту"
-              class="inline-flex items-center px-6 py-3 bg-white dark:bg-gray-800 border-2 border-amber-600 dark:border-amber-700 text-amber-600 dark:text-amber-400 hover:bg-amber-50 dark:hover:bg-gray-700 font-medium rounded-lg transition-colors"
-            >
-              <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-              </svg>
-              Написать нам
-            </a>
-            -->
           </div>
           <div class="text-center text-sm text-gray-600 dark:text-gray-300 space-y-2">
             <div>170001, Тверская область, г.&nbsp;Тверь, тер.&nbsp;Двор&nbsp;Пролетарки, д.&nbsp;7, помещ.&nbsp;№&nbsp;113-114</div>
@@ -240,6 +281,18 @@
         </div>
       </div>
     </section>
+
+    <!-- Кнопка "Наверх" -->
+    <button
+      v-if="showScrollTop"
+      @click="scrollToTop"
+      class="fixed bottom-8 right-8 z-40 p-3 bg-amber-600 hover:bg-amber-700 dark:bg-amber-700 dark:hover:bg-amber-600 text-white rounded-full shadow-lg transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2"
+      aria-label="Прокрутить наверх"
+    >
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+      </svg>
+    </button>
 
     <!-- Lightbox Modal -->
     <div 
@@ -301,13 +354,14 @@
 </template>
 
 <script>
-import { ref, onUnmounted, watch } from 'vue'
+import { ref, onUnmounted, watch, onMounted, nextTick } from 'vue'
 
 export default {
   name: 'Home',
   setup() {
     const lightboxImage = ref(null)
     const totalImages = 8
+    const showScrollTop = ref(false)
 
     const openLightbox = (imageNumber) => {
       lightboxImage.value = imageNumber
@@ -345,6 +399,88 @@ export default {
       }
     }
 
+    const handleScroll = () => {
+      showScrollTop.value = window.scrollY > 300
+    }
+
+    const scrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      })
+    }
+
+    const trackPhoneClick = () => {
+      // Здесь можно добавить аналитику
+      if (typeof gtag !== 'undefined') {
+        gtag('event', 'phone_click', {
+          event_category: 'engagement',
+          event_label: 'phone_number'
+        })
+      }
+    }
+
+    // Анимации при скролле
+    const setupScrollAnimations = () => {
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+      }
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('animate-in')
+            observer.unobserve(entry.target)
+          }
+        })
+      }, observerOptions)
+
+      // Наблюдаем за секциями с классом scroll-animate
+      const sections = document.querySelectorAll('.scroll-animate')
+      sections.forEach(section => {
+        section.classList.add('opacity-0', 'translate-y-8', 'transition-all', 'duration-700')
+        observer.observe(section)
+      })
+    }
+
+    // Анимация чисел в ценах
+    const animateNumbers = async () => {
+      await nextTick()
+      const priceElements = document.querySelectorAll('[data-price]')
+      priceElements.forEach(el => {
+        const target = parseInt(el.getAttribute('data-price'))
+        if (isNaN(target)) return
+        
+        const originalText = el.textContent
+        const duration = 2000
+        let startTime = null
+
+        const animate = (timestamp) => {
+          if (!startTime) startTime = timestamp
+          const progress = Math.min((timestamp - startTime) / duration, 1)
+          const current = Math.floor(target * progress)
+          el.textContent = `${current} ₽/м³`
+          
+          if (progress < 1) {
+            requestAnimationFrame(animate)
+          } else {
+            el.textContent = originalText
+          }
+        }
+        
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              requestAnimationFrame(animate)
+              observer.unobserve(el)
+            }
+          })
+        }, { threshold: 0.5 })
+        observer.observe(el)
+      })
+    }
+
     watch(lightboxImage, (newVal) => {
       if (newVal) {
         document.addEventListener('keydown', handleKeydown)
@@ -353,22 +489,45 @@ export default {
       }
     })
 
+    onMounted(() => {
+      window.addEventListener('scroll', handleScroll)
+      setupScrollAnimations()
+      animateNumbers()
+    })
+
     onUnmounted(() => {
       document.removeEventListener('keydown', handleKeydown)
+      window.removeEventListener('scroll', handleScroll)
       document.body.style.overflow = ''
     })
 
     return {
       lightboxImage,
       totalImages,
+      showScrollTop,
       openLightbox,
       closeLightbox,
-      navigateImage
+      navigateImage,
+      scrollToTop,
+      trackPhoneClick
     }
   }
 }
 </script>
 
 <style scoped>
-/* Дополнительные стили при необходимости */
+/* Анимации при скролле */
+.scroll-animate.animate-in {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+/* Плавные переходы для карточек */
+article {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+article:hover {
+  transform: translateY(-4px);
+}
 </style>

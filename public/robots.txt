@@ -2,9 +2,8 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://3-14.ru/sitemap.xml
+Sitemap: 3-14.ti-soft.ru.ru/sitemap.xml
 
 # Disallow admin and private areas if any
 # Disallow: /admin/
 # Disallow: /private/
-
