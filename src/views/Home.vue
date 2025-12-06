@@ -104,6 +104,20 @@
                 Расположено в 20 км северо-западнее г. Торжок, в 1.1 км северо-восточнее д. Большое Вишенье 
                 Торжокского района Тверской области.
               </p>
+              <div class="mb-4">
+                <a
+                  href="https://yandex.ru/navi/?whatshere%5Bzoom%5D=18&whatshere%5Bpoint%5D=34.682474,57.147229&si=x10n6200g4wrmrfza8t83z5crw"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center justify-center w-full px-4 py-2 bg-blue-600 hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-600 text-white text-sm font-medium rounded-lg transition-colors"
+                  aria-label="Открыть точку Большевишенское на Яндекс Картах"
+                >
+                  <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                  </svg>
+                  Точка на Яндекс Картах
+                </a>
+              </div>
               <div class="border-t border-gray-200 dark:border-gray-700 pt-4">
                 <h4 class="font-semibold text-gray-900 dark:text-white mb-3">Ассортимент и цены:</h4>
                 <ul class="space-y-2">
@@ -133,12 +147,12 @@
             <div class="h-48 overflow-hidden bg-gray-200 dark:bg-gray-700">
               <picture>
                 <source 
-                  srcset="/foto/7.jpeg?w=600&format=webp" 
+                  srcset="/foto/9.jpeg?w=600&format=webp" 
                   type="image/webp"
                 />
                 <img 
-                  src="/foto/7.jpeg" 
-                  srcset="/foto/7.jpeg?w=600 600w, /foto/7.jpeg?w=400 400w"
+                  src="/foto/9.jpeg" 
+                  srcset="/foto/9.jpeg?w=600 600w, /foto/9.jpeg?w=400 400w"
                   sizes="(min-width: 768px) 33vw, 100vw"
                   alt="Карьер месторождения Эммаус в Калининском районе Тверской области. Добыча песка и нерудных материалов" 
                   class="w-full h-full object-cover transition-opacity duration-300"
@@ -154,6 +168,20 @@
                 Расположено в 19 км юго-восточнее г. Твери, 2 км западнее д. Нов. Семеновское, 
                 Калининского района Тверской области.
               </p>
+              <div class="mb-4">
+                <a
+                  href="https://yandex.ru/navi/?whatshere%5Bzoom%5D=18&whatshere%5Bpoint%5D=36.183579,56.781252&si=x10n6200g4wrmrfza8t83z5crw"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center justify-center w-full px-4 py-2 bg-blue-600 hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-600 text-white text-sm font-medium rounded-lg transition-colors"
+                  aria-label="Открыть точку Эммаус на Яндекс Картах"
+                >
+                  <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                  </svg>
+                  Точка на Яндекс Картах
+                </a>
+              </div>
               <div class="border-t border-gray-200 dark:border-gray-700 pt-4">
                 <h4 class="font-semibold text-gray-900 dark:text-white mb-3">Ассортимент и цены:</h4>
                 <ul class="space-y-2">
@@ -171,12 +199,12 @@
             <div class="h-48 overflow-hidden bg-gray-200 dark:bg-gray-700">
               <picture>
                 <source 
-                  srcset="/foto/6.jpeg?w=600&format=webp" 
+                  srcset="/foto/2.jpeg?w=600&format=webp" 
                   type="image/webp"
                 />
                 <img 
-                  src="/foto/6.jpeg" 
-                  srcset="/foto/6.jpeg?w=600 600w, /foto/6.jpeg?w=400 400w"
+                  src="/foto/2.jpeg" 
+                  srcset="/foto/2.jpeg?w=600 600w, /foto/2.jpeg?w=400 400w"
                   sizes="(min-width: 768px) 33vw, 100vw"
                   alt="Песчаный карьер месторождения Красногорское-2 в Тверской области. Производство и добыча песка для строительства" 
                   class="w-full h-full object-cover transition-opacity duration-300"
@@ -192,6 +220,20 @@
                 Расположено в 5 км юго-восточнее г. Тверь, в 3 км западнее д. Савватьево 
                 Калининского муниципального района Тверской области.
               </p>
+              <div class="mb-4">
+                <a
+                  href="https://yandex.ru/navi/?whatshere%5Bzoom%5D=18&whatshere%5Bpoint%5D=36.058175,56.830865&si=x10n6200g4wrmrfza8t83z5crw"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center justify-center w-full px-4 py-2 bg-blue-600 hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-600 text-white text-sm font-medium rounded-lg transition-colors"
+                  aria-label="Открыть точку Красногорское-2 на Яндекс Картах"
+                >
+                  <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                  </svg>
+                  Точка на Яндекс Картах
+                </a>
+              </div>
               <div class="border-t border-gray-200 dark:border-gray-700 pt-4">
                 <h4 class="font-semibold text-gray-900 dark:text-white mb-3">Ассортимент и цены:</h4>
                 <ul class="space-y-2">
@@ -263,15 +305,15 @@
           </p>
           <div class="flex flex-col sm:flex-row justify-center items-center gap-4 mb-8">
             <a 
-              href="tel:+79040170207" 
-              aria-label="Позвонить по телефону +7(904)017-02-07"
+              href="tel:+79000196515" 
+              aria-label="Позвонить по телефону +7(900)019-65-15"
               class="inline-flex items-center px-6 py-3 bg-gray-900 hover:bg-gray-800 dark:bg-amber-700 dark:hover:bg-amber-600 text-white font-medium rounded-lg transition-colors shadow-lg"
               @click="trackPhoneClick"
             >
               <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
               </svg>
-              +7 (904) 017-02-07
+              +7 (900) 019-65-15
             </a>
           </div>
           <div class="text-center text-sm text-gray-600 dark:text-gray-300 space-y-2">
